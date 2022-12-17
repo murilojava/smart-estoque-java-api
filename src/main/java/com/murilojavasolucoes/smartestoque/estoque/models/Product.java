@@ -24,7 +24,7 @@ public class Product {
 
   private String code;
 
-  private String barCode;
+  private String barcode;
 
   private String name;
 
