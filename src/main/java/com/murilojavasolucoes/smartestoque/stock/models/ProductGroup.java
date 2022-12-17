@@ -1,4 +1,4 @@
-package com.murilojavasolucoes.smartestoque.estoque.models;
+package com.murilojavasolucoes.smartestoque.stock.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,11 +1,11 @@
-package com.murilojavasolucoes.smartestoque.estoque.repositories;
+package com.murilojavasolucoes.smartestoque.stock.repositories;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.murilojavasolucoes.smartestoque.estoque.models.ProductPackage;
+import com.murilojavasolucoes.smartestoque.stock.models.ProductPackage;
 
 @Repository
 public interface ProductPackageRepository extends JpaRepository<ProductPackage, Integer> {
