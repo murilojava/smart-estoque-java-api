@@ -1,6 +1,7 @@
 package com.murilojavasolucoes.smartestoque.stock.models;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -71,4 +72,8 @@ public class Product {
   private Boolean useInCost = Boolean.TRUE;
 
   private String reference = null;
+
+  private LocalDate createdAt;
+
+  private LocalDate updatedAt;
 }
