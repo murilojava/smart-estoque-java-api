@@ -32,11 +32,11 @@ public class Product {
   private String description;
 
   @ManyToOne(cascade = { CascadeType.REFRESH })
-  @JoinColumn(name = "grupo_id")
-  private ProductGroup grupo;
+  @JoinColumn(name = "product_group_id")
+  private ProductGroup productGroup;
 
   @ManyToOne(cascade = { CascadeType.REFRESH })
-  @JoinColumn(name = "embalagem_id")
+  @JoinColumn(name = "product_package_id")
   private ProductPackage productPackage;
 
   private Boolean requiresQuantity = Boolean.FALSE;
