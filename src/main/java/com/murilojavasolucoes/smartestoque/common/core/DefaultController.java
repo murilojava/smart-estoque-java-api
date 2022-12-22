@@ -69,7 +69,7 @@ public abstract class DefaultController<MODEL, ID, DTO> {
 
   public MODEL buildModel(DTO dto) {
     MODEL model = createModel();
-    BeanUtils.copyProperties(model, dto);
+    BeanUtils.copyProperties(dto, model);
     return model;
   }
 
